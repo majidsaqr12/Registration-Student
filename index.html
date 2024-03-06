@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="سجل الآن في دروسنا التعليمية المصممة لتعزيز مهاراتك الأكاديمية. انضم إلى مجتمعنا الدراسي النشط.">
+    <link rel="icon" type="image/png" href="images/logo/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>تسجيل الطلاب للدروس</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Aussum -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- heeader -->
+    <nav class="navbar navbar-expand navbar-light bg-light" id="nav_header">
+        <div class="container-fluid">
+            <!-- Social Icons - Always visible -->
+            <ul class="navbar-nav ms-auto"> <!-- ms-auto to align the nav to the right -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://web.facebook.com/MYSANTEDIAGNO/"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/accounts/onetap/?next=%2Fvita_parapharma%2F"><i class="bi bi-instagram"></i></a> <!-- Instagram Icon -->
+                </li>      
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-tiktok"></i></a>
+                </li>          
+                <!-- Add more social icons as needed -->
+            </ul>
+            <!-- Logo -->
+            <!-- <a class="navbar-brand" href="#">
+                <img src="images/logo/logo.png" alt="Logo">
+            </a> -->
+        </div>
+    </nav>
+
+    <!-- Order Form section -->
+    <div class="container my-5" id="_form">
+        <div class="row">
+            <div class="col-12">
+                <div class="border rounded p-4">
+                    <h3 class="text-center mb-4">للانضمام معنا، الرجاء ملء الاستمارة التالية</h3>
+                    <form action="#" method="post" role="form" class="php-email-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="الاسم الكامل" aria-label="Full name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="رقم الهاتف" aria-label="Phone number" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="academy_year" name="academy_year" placeholder="السنة الدراسية" aria-label="address" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="address" name="address" placeholder="العنوان الكامل" aria-label="address" required>
+                        </div>
+                        <div class="mb-3" id="productSelectionContainer"> <!-- Add an ID for easier selection -->
+                            <div class="input-group">
+                                <select class="form-select" id="productSelection" name="productSelection" aria-label="Product Selection">
+                                    <option value="images/products/product7.jpeg" selected>Pack389</option>
+                                </select>
+                            </div>
+                        </div>                        
+                        <div class="d-grid gap-2 text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">سجل الآن</button>
+                            <div id="formMessage" class="mt-3"></div> <!-- Placeholder for the message -->
+                        </div>
+                    </form>
+                    <div class="d-grid gap-2 text-center">
+                        <div class="divider">أو</div>
+                        <button style="border-radius: 30px;" id="contactUsBtn" class="btn btn-primary btn-lg">تواصل معنا عبر الواتساب</button>
+                    </div>
+                    <div class="text-center my-4">
+                        <p>تعرّف أكثر على برامجنا التعليمية وفوائدها</p>
+                        <div class="container my-4">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <!-- Icons List for Educational Benefits -->
+                                    <a href="#" class="mx-2"><i class="bi bi-journal-bookmark-fill"></i>مواد تعليمية متميزة</a>
+                                    <a href="#" class="mx-2"><i class="bi bi-person-check-fill"></i>تدريس شخصي</a>
+                                    <a href="#" class="mx-2"><i class="bi bi-stars"></i>نتائج مثبتة</a>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                    
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-outline-primary me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-primary me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-primary me-3"><i class="bi bi-facebook"></i></a>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Images Section -->
+    <div class="container">
+        <div class="product-section">
+            <h1>اكتشف دوراتنا التعليمية المميزة</h1>
+            <marquee><p class="text-center">أكثر من 1000 طالب وثقوا بنا</p></marquee>
+            <a href="#_form"><button type="button" class="btn btn-primary">اطلب الان</button></a>
+            <div class="product-image">
+                <div class="product-item">
+                    <img id="product1" src="images/products/teacher.jpg" alt="Pack389" class="img-fluid">
+                </div>
+                <div class="product-item">
+                    <img id="product1" src="images/products/back_to_school.jpg" alt="Pack389" class="img-fluid">
+                    <!-- <div class="product-icons">
+                        <a href="#" class="add-to-cart" data-product-id="images/products/"><i class="bi bi-check-lg"></i></a>
+                    </div> -->
+                </div>
+                <div class="product-item">
+                    <img id="product1" src="images/products/students.jpg" alt="Pack389" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">آراء الطلاب وأولياء أمورهم</h2>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <p class="card-text">"الدروس كانت مفيدة جدًا وساعدتني على تحسين درجاتي بشكل ملحوظ. المعلم متمكن ويشرح بطريقة سهلة الفهم."</p>
+                    <footer class="blockquote-footer">محمد الخالدي<cite title="Source Title">طالب في الصف العاشر</cite></footer>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <p class="card-text">"شكراً لهذه التجربة التعليمية الممتازة، طفلي الآن أكثر حماسًا للتعلم ودائمًا في انتظار الدرس القادم."</p>
+                    <footer class="blockquote-footer">سلمى بنت عبدالعزيز<cite title="Source Title">أم ولي أمر</cite></footer>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <p class="card-text">"المنهج المستخدم في التدريس متطور ويواكب أحدث الطرق التعليمية، مما ساعدني كثيرًا في الاستيعاب والتقدم."</p>
+                    <footer class="blockquote-footer">فاطمة الأمير<cite title="Source Title">طالبة في الصف الثاني عشر</cite></footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- FAQ Section for Lesson Registration -->
+<div class="faq-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">الأسئلة الشائعة حول التسجيل في الدروس</h2>
+        <div class="accordion" id="faqAccordion">
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        كيف يمكنني التسجيل للدروس؟
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        يمكنك التسجيل من خلال ملء استمارة التسجيل على موقعنا واختيار الدرس المطلوب. سنتواصل معك لتأكيد التسجيل وموعد الدرس.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ما هي تكلفة الدروس؟
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        تختلف تكلفة الدروس حسب الفئة والمستوى. يرجى مراجعة قائمة الأسعار لدينا أو الاتصال بنا لمزيد من المعلومات.
+                    </div>
+                </div>
+            </div>
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        هل يمكنني الحصول على دروس تجريبية قبل الالتحاق؟
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        نعم، نقدم درسًا تجريبيًا مجانيًا للطلاب الجدد لتجربة نمط التدريس والتأكد من أنه يلبي احتياجاتهم التعليمية.
+                    </div>
+                </div>
+            </div>
+            <!-- Additional FAQ Items -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        ماذا لو لم أتمكن من حضور درس مجدول؟
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        نفهم أن الظروف قد تمنع الحضور أحيانًا. في مثل هذه الحالات، نقدم خيار إعادة جدولة الدرس. يرجى إبلاغنا مسبقًا لترتيب موعد بديل.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Scroll to Top Button -->
+    <a href="#nav_header" class="btn btn-primary rounded-circle" id="scrollTopBtn" style="position: fixed; bottom: 150px; right: 25px; display: none; z-index: 100;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- Static Bottom Button -->
+    <div class="fixed-bottom text-center mb-3">
+        <a href="#_form"><button type="button" class="btn btn-lg btn-primary pulsing-button">
+            سجل الآن للحصول على درس تجريبي مجاني
+        </button></a>
+    </div>
+
+    <!-- Whatsapp icon -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/+212770351416" target="_blank" class="whatsapp-button btn btn-success rounded-circle" id="whatsappBtn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <div class="whatsapp-message" id="whatsappMessage">اطلب الان عبر الواتساب</div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <div class="footer-text">
+                All Right Reserved © 2024 <!-- Your footer text here -->
+            </div>
+        </div>
+    </footer>    
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="form.js"></script>
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
